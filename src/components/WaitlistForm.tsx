@@ -179,7 +179,7 @@ export default function WaitlistForm() {
 
   if (isSubmitted) {
     return (
-      <div className="bg-white rounded-2xl p-8 shadow-soft border border-primary-sage/20">
+      <div className="bg-white/30 rounded-2xl p-8 shadow-soft border border-primary-sage/20">
         <div className="text-center">
           <CheckCircle className="w-16 h-16 text-primary-sage mx-auto mb-4" />
           <h3 className="text-2xl font-display font-semibold text-accent-forest mb-2">
@@ -205,7 +205,7 @@ export default function WaitlistForm() {
     <form
       id="waitlist-form"
       onSubmit={handleSubmit}
-      className="bg-white rounded-2xl p-8 shadow-soft border border-primary-sage/20"
+      className="bg-white/80 rounded-2xl p-8 shadow-soft border border-primary-sage/20"
     >
       <div className="mb-6">
         <h3 className="text-2xl font-display font-semibold text-accent-forest mb-2">
@@ -429,20 +429,6 @@ export default function WaitlistForm() {
         >
           {isSubmitting ? "Saving your spot..." : "Get priority access"}
         </button>
-
-        {/* Trust Elements */}
-        <div className="flex items-center justify-center gap-6 pt-4 border-t border-primary-sage/10">
-          <div className="flex items-center gap-2 text-sm text-supporting-gray">
-            <Shield className="w-4 h-4 text-primary-sage" />
-            <span>We'll never share your details</span>
-          </div>
-        </div>
-
-        <div className="text-center">
-          <p className="text-xs text-supporting-gray">
-            Your information is secure and never to be shared.
-          </p>
-        </div>
       </div>
     </form>
   );

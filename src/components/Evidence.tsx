@@ -68,66 +68,6 @@ export default function Evidence() {
                 </div>
               </div>
             </div>
-
-            {/* Safety Notice */}
-            <div className="bg-forest-green/5 border border-forest-green/20 rounded-2xl p-8">
-              <div className="flex items-start gap-4 mb-6">
-                <div className="w-8 h-8 bg-forest-green/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <AlertTriangle className="w-5 h-5 text-forest-green" />
-                </div>
-                <div>
-                  <h3 className="font-display font-semibold text-forest-green mb-2">
-                    Important medical notice
-                  </h3>
-                  <p className="text-body-sm text-forest-green/80">
-                    Soothly is not a substitute for medical advice. If you
-                    suspect anaphylaxis or have any medical concerns, call 000
-                    immediately.
-                  </p>
-                </div>
-              </div>
-
-              <div className="bg-white/60 rounded-xl p-4">
-                <p className="text-sm text-forest-green font-medium mb-2">
-                  Emergency contact
-                </p>
-                <p className="text-lg font-bold text-forest-green">000</p>
-                <p className="text-xs text-forest-green/70 mt-1">
-                  For life-threatening allergic reactions
-                </p>
-              </div>
-            </div>
-          </div>
-
-          {/* Additional Safety Information */}
-          <div className="bg-warm-cream rounded-2xl p-8 border border-sage-green/20">
-            <h3 className="font-display font-semibold text-forest-green mb-4">
-              What makes our approach different
-            </h3>
-            <div className="grid md:grid-cols-2 gap-6">
-              <div>
-                <h4 className="font-medium text-forest-green mb-2">
-                  Traditional clinic approach
-                </h4>
-                <ul className="text-sm text-warm-gray space-y-1">
-                  <li>• Limited appointment availability</li>
-                  <li>• One-size-fits-all programs</li>
-                  <li>• Infrequent check-ins</li>
-                  <li>• High cost per session</li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-medium text-forest-green mb-2">
-                  Soothly's approach
-                </h4>
-                <ul className="text-sm text-warm-gray space-y-1">
-                  <li>• Continuous support and guidance</li>
-                  <li>• Personalized for your family</li>
-                  <li>• Regular progress monitoring</li>
-                  <li>• Affordable ongoing care</li>
-                </ul>
-              </div>
-            </div>
           </div>
         </div>
       </div>

@@ -154,11 +154,9 @@ export default function Hero() {
         {/* CTA Button */}
         <a
           href="#waitlist"
-          className="group relative bg-[#87A96B] hover:bg-[#7A9660] text-white font-semibold py-4 px-12 text-lg uppercase tracking-wider rounded-full inline-block transition-all duration-500 ease-out hover:scale-105 hover:shadow-2xl hover:shadow-[#87A96B]/25 active:scale-95 shadow-lg shadow-black/20"
+          className="bg-[#87A96B] hover:bg-[#7A9660] text-white font-semibold py-4 px-12 text-lg uppercase tracking-wider rounded-full inline-block transition-all duration-500 ease-out hover:scale-105 active:scale-95 shadow-lg shadow-black/20"
         >
-          <span className="relative z-10">JOIN THE WAITLIST</span>
-          {/* Subtle glow effect */}
-          <div className="absolute inset-0 rounded-full bg-gradient-to-r from-[#87A96B] to-[#9BB87A] opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-sm"></div>
+          JOIN THE WAITLIST
         </a>
       </div>
 

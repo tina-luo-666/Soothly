@@ -120,18 +120,6 @@ export default function FAQ() {
               );
             })}
           </div>
-
-          <div className="text-center mt-12">
-            <p className="text-body-sm text-warm-gray mb-4">
-              Still have questions?
-            </p>
-            <a
-              href="mailto:hello@soothly.com.au"
-              className="inline-flex items-center gap-2 text-sage-green hover:text-forest-green font-medium transition-colors"
-            >
-              Contact our team
-            </a>
-          </div>
         </div>
       </div>
     </section>
