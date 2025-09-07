@@ -3,15 +3,43 @@ import { config } from "./config";
 
 // Initialize PostHog
 export function initPostHog() {
-  if (typeof window !== "undefined" && config.posthog.key) {
-    posthog.init(config.posthog.key, {
-      api_host: config.posthog.host,
-      loaded: (posthog) => {
-        if (process.env.NODE_ENV === "development") {
-          posthog.debug();
-        }
-      },
-    });
+  if (
+    typeof window !== "undefined" &&
+    config.posthog.key &&
+    config.posthog.key.trim() !== ""
+  ) {
+    try {
+      posthog.init(config.posthog.key, {
+        api_host: config.posthog.host,
+        loaded: (posthog) => {
+          if (process.env.NODE_ENV === "development") {
+            posthog.debug();
+          }
+        },
+      });
+    } catch (error) {
+      console.warn("Failed to initialize PostHog:", error);
+    }
+  } else {
+    console.warn(
+      "PostHog not initialized: Missing or invalid API key. Please set NEXT_PUBLIC_POSTHOG_KEY in your .env.local file."
+    );
+  }
+}
+
+// Helper function to safely capture events
+function safeCapture(eventName: string, properties?: Record<string, any>) {
+  try {
+    if (
+      typeof window !== "undefined" &&
+      posthog &&
+      config.posthog.key &&
+      config.posthog.key.trim() !== ""
+    ) {
+      posthog.capture(eventName, properties);
+    }
+  } catch (error) {
+    console.warn(`Failed to capture event "${eventName}":`, error);
   }
 }
 
@@ -25,20 +53,20 @@ export const analytics = {
     utm_medium?: string;
     utm_campaign?: string;
   }) => {
-    posthog.capture("lp_view", props);
+    safeCapture("lp_view", props);
   },
 
   lpScrollSection: (sectionId: string) => {
-    posthog.capture("lp_scroll_section", { section_id: sectionId });
+    safeCapture("lp_scroll_section", { section_id: sectionId });
   },
 
   // Waitlist form events
   waitlistOpen: () => {
-    posthog.capture("waitlist_open");
+    safeCapture("waitlist_open");
   },
 
   waitlistSubmitAttempt: (hasErrors: boolean) => {
-    posthog.capture("waitlist_submit_attempt", { has_errors: hasErrors });
+    safeCapture("waitlist_submit_attempt", { has_errors: hasErrors });
   },
 
   waitlistSubmitSuccess: (props: {
@@ -46,17 +74,17 @@ export const analytics = {
     primary_allergy: string;
     location_state: string;
   }) => {
-    posthog.capture("waitlist_submit_success", props);
+    safeCapture("waitlist_submit_success", props);
   },
 
   // FAQ events
   faqExpand: (questionId: string) => {
-    posthog.capture("faq_expand", { question_id: questionId });
+    safeCapture("faq_expand", { question_id: questionId });
   },
 
   // Custom events
   customEvent: (eventName: string, properties?: Record<string, any>) => {
-    posthog.capture(eventName, properties);
+    safeCapture(eventName, properties);
   },
 };
 
