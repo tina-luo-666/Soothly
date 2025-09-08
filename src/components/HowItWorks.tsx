@@ -35,8 +35,26 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-16 lg:py-24 bg-warm-cream">
-      <div className="container mx-auto px-4">
+    <section id="how-it-works" className="py-16 lg:py-24 bg-warm-cream relative overflow-hidden">
+      {/* Background Video */}
+      <div className="absolute inset-0 w-full h-full">
+        <video
+          className="w-full h-full object-cover opacity-20"
+          autoPlay
+          muted
+          loop
+          playsInline
+          poster="/video-poster.svg"
+        >
+          <source src="/how-it-works-video.mp4" type="video/mp4" />
+          {/* Fallback for browsers that don't support video */}
+          <div className="w-full h-full bg-gradient-to-br from-sage-green/20 to-warm-cream/20"></div>
+        </video>
+        {/* Video overlay for better content readability */}
+        <div className="absolute inset-0 bg-warm-cream/80"></div>
+      </div>
+
+      <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-display-md font-display font-semibold text-forest-green mb-6">
             Your journey to food confidence

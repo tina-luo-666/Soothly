@@ -1,0 +1,5 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1920" height="1080" fill="#F7F5F0"/>
+<rect x="800" y="400" width="320" height="280" rx="16" fill="#87A96B"/>
+<text x="960" y="540" fill="white" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">Autoplay Video</text>
+</svg>

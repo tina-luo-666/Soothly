@@ -19,10 +19,9 @@ export default function Hero() {
           muted
           loop
           playsInline
-          poster="/video-poster.jpg" // Add a poster image as fallback
+          poster="/video-poster.svg"
         >
           <source src="/hero-video.mp4" type="video/mp4" />
-          <source src="/hero-video.webm" type="video/webm" />
           {/* Fallback for browsers that don't support video */}
           <div className="w-full h-full bg-gradient-to-br from-blue-900 via-black to-blue-800"></div>
         </video>

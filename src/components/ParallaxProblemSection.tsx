@@ -159,10 +159,9 @@ export default function ParallaxProblemSection() {
                   muted
                   loop
                   playsInline
-                  poster="/video-poster.jpg"
+                  poster="/video-poster.svg"
                 >
                   <source src="/problem-video.mp4" type="video/mp4" />
-                  <source src="/problem-video.webm" type="video/webm" />
                   {/* Placeholder for video */}
                   <div className="w-full h-full bg-gradient-to-br from-primary-sage/20 to-primary-coral/20 flex items-center justify-center">
                     <div className="text-center p-8">

@@ -1,9 +1,14 @@
 import AnalyticsProvider from "@/components/AnalyticsProvider";
 import Hero from "@/components/Hero";
+import ProblemCards from "@/components/ProblemCards";
+import Introduction from "@/components/Introduction";
 import ParallaxProblemSection from "@/components/ParallaxProblemSection";
-import WaitlistForm from "@/components/WaitlistForm";
 import FeatureIcons from "@/components/FeatureIcons";
+import HowItWorks from "@/components/HowItWorks";
+import Evidence from "@/components/Evidence";
 import FAQ from "@/components/FAQ";
+import FinalCTA from "@/components/FinalCTA";
+import WaitlistForm from "@/components/WaitlistForm";
 import Footer from "@/components/Footer";
 
 export default function Home() {
@@ -11,10 +16,14 @@ export default function Home() {
     <AnalyticsProvider>
       <div className="min-h-screen">
         <Hero />
-
+        <ProblemCards />
+        <Introduction />
         <ParallaxProblemSection />
         <FeatureIcons />
+        <HowItWorks />
+        <Evidence />
         <FAQ />
+        <FinalCTA />
 
         {/* Waitlist Section - At the bottom of the page */}
         <section
