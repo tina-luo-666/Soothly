@@ -8,7 +8,7 @@ const problems = [
     icon: Heart,
     title: "social isolation",
     description:
-      "We know how hard it is when birthday cake becomes a worry instead of a celebration, or when you find yourself saying 'maybe next time' to playdates because managing allergies feels overwhelming",
+      "We know how hard it is when birthday cake becomes a worry instead of a celebration, or when you find yourself saying &apos;maybe next time&apos; to playdates because managing allergies feels overwhelming",
     color: "primary-coral",
   },
   {
@@ -29,7 +29,7 @@ const problems = [
     icon: MapPin,
     title: "geographic barriers",
     description:
-      "Living hours away from the nearest specialist shouldn't mean your family has to choose between expert care and staying close to home",
+      "Living hours away from the nearest specialist shouldn&apos;t mean your family has to choose between expert care and staying close to home",
     color: "primary-sage",
   },
 ];
@@ -120,7 +120,7 @@ export default function ParallaxProblemSection() {
                 opacity: 0.8 + scrollY * 0.2,
               }}
             >
-              While Australia excels at emergency medical care, we're failing
+              While Australia excels at emergency medical care, we&apos;re failing
               families who need help transitioning from complete food avoidance
               to confident, normal living.
             </p>

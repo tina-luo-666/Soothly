@@ -28,7 +28,7 @@ export function initPostHog() {
 }
 
 // Helper function to safely capture events
-function safeCapture(eventName: string, properties?: Record<string, any>) {
+function safeCapture(eventName: string, properties?: Record<string, unknown>) {
   try {
     if (
       typeof window !== "undefined" &&
@@ -83,7 +83,7 @@ export const analytics = {
   },
 
   // Custom events
-  customEvent: (eventName: string, properties?: Record<string, any>) => {
+  customEvent: (eventName: string, properties?: Record<string, unknown>) => {
     safeCapture(eventName, properties);
   },
 };

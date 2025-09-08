@@ -26,7 +26,7 @@ export default function TermsPage() {
                 Acceptance of Terms
               </h2>
               <p className="text-body-md text-warm-gray mb-4">
-                By accessing and using Soothly's services, you accept and agree
+                By accessing and using Soothly&apos;s services, you accept and agree
                 to be bound by the terms and provision of this agreement.
               </p>
             </section>

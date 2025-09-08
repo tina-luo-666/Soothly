@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { CheckCircle, Mail, Heart } from "lucide-react";
+import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Thank You - Soothly",
   description:
-    "Thank you for joining the Soothly waitlist. We'll be in touch soon with early access details.",
+    "Thank you for joining the Soothly waitlist. We&apos;ll be in touch soon with early access details.",
 };
 
 export default function ThanksPage() {
@@ -16,10 +17,10 @@ export default function ThanksPage() {
           <div className="mb-8">
             <CheckCircle className="w-20 h-20 text-sage-green mx-auto mb-6" />
             <h1 className="text-display-md font-display font-bold text-forest-green mb-4">
-              You're on the list! 🎉
+              You&apos;re on the list! 🎉
             </h1>
             <p className="text-body-lg text-warm-gray">
-              Thank you for joining our priority waitlist. We're excited to help
+              Thank you for joining our priority waitlist. We&apos;re excited to help
               your family on this journey.
             </p>
           </div>
@@ -39,7 +40,7 @@ export default function ThanksPage() {
                     Check your email
                   </h3>
                   <p className="text-body-sm text-warm-gray">
-                    We'll send you a confirmation email with next steps and
+                    We&apos;ll send you a confirmation email with next steps and
                     gentle tips to help your family start building confidence
                     around food.
                   </p>
@@ -55,7 +56,7 @@ export default function ThanksPage() {
                     Early access updates
                   </h3>
                   <p className="text-body-sm text-warm-gray">
-                    You'll be among the first to know when we launch, with
+                    You&apos;ll be among the first to know when we launch, with
                     exclusive early access to our platform and special launch
                     pricing.
                   </p>
@@ -71,7 +72,7 @@ export default function ThanksPage() {
                     Gentle guidance
                   </h3>
                   <p className="text-body-sm text-warm-gray">
-                    In the meantime, we'll send you simple, evidence-based tips
+                    In the meantime, we&apos;ll send you simple, evidence-based tips
                     to help your family take small, confident steps toward food
                     confidence.
                   </p>
@@ -85,7 +86,7 @@ export default function ThanksPage() {
               Questions or need to update your information?
             </h3>
             <p className="text-body-sm text-warm-gray mb-4">
-              We're here to help. Feel free to reach out if you have any
+              We&apos;re here to help. Feel free to reach out if you have any
               questions or need to make changes to your waitlist information.
             </p>
             <a
@@ -98,12 +99,12 @@ export default function ThanksPage() {
           </div>
 
           <div className="mt-8">
-            <a
+            <Link
               href="/"
               className="inline-flex items-center gap-2 text-sage-green hover:text-forest-green font-medium transition-colors"
             >
               ← Back to home
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -22,7 +22,7 @@ export default function Hero() {
           poster="/video-poster.svg"
         >
           <source src="/hero-video.mp4" type="video/mp4" />
-          {/* Fallback for browsers that don't support video */}
+          {/* Fallback for browsers that don&apos;t support video */}
           <div className="w-full h-full bg-gradient-to-br from-blue-900 via-black to-blue-800"></div>
         </video>
 
@@ -143,10 +143,10 @@ export default function Hero() {
         {/* Sub-headline */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-            Australia has the world's highest childhood food allergy rates. But
-            as a mother with a son living with a nut and egg allergy, I've
-            realised that beyond the potential for medical emergencies, it's the
-            anxiety and fear that's stealing a carefree childhood from families.
+            Australia has the world&apos;s highest childhood food allergy rates. But
+            as a mother with a son living with a nut and egg allergy, I&apos;ve
+            realised that beyond the potential for medical emergencies, it&apos;s the
+            anxiety and fear that&apos;s stealing a carefree childhood from families.
           </p>
         </div>
 

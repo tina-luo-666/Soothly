@@ -8,12 +8,12 @@ export default function AnalyticsProvider({
 }: {
   children: React.ReactNode;
 }) {
+  // Set up scroll tracking
+  useScrollTracking();
+
   useEffect(() => {
     // Initialize PostHog
     initPostHog();
-
-    // Set up scroll tracking
-    const cleanup = useScrollTracking();
 
     // Track page view
     if (typeof window !== "undefined") {
@@ -33,8 +33,6 @@ export default function AnalyticsProvider({
         });
       });
     }
-
-    return cleanup;
   }, []);
 
   return <>{children}</>;

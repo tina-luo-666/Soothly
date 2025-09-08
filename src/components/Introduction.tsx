@@ -7,19 +7,19 @@ const features = [
     icon: ArrowRight,
     title: "Graduated exposure",
     description:
-      "We'll walk alongside you as your family builds confidence with food, one step at a time",
+      "We&apos;ll walk alongside you as your family builds confidence with food, one step at a time",
   },
   {
     icon: Shield,
     title: "Expert oversight",
     description:
-      "You'll have an expert in your corner and someone to call when you need reassurance",
+      "You&apos;ll have an expert in your corner and someone to call when you need reassurance",
   },
   {
     icon: Home,
     title: "Home delivery",
     description:
-      "Whether you're at home in the city or on a farm hours from town, support is right there within arm's reach",
+      "Whether you&apos;re at home in the city or on a farm hours from town, support is right there within arm&apos;s reach",
   },
   {
     icon: Users,
@@ -43,7 +43,7 @@ export default function Introduction() {
           </h3>
 
           <p className="text-body-lg text-supporting-gray leading-relaxed">
-            Australia's first evidence-based exposure therapy platform designed
+            Australia&apos;s first evidence-based exposure therapy platform designed
             to transform food anxiety into confidence, restriction into freedom
             and isolation into normal family life.
           </p>

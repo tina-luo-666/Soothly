@@ -71,7 +71,7 @@ export type StatusColor = keyof typeof colors.status;
 export function getColor(category: keyof ColorToken, variant: string): string {
   const colorCategory = colors[category];
   if (typeof colorCategory === "object" && colorCategory !== null) {
-    return (colorCategory as any)[variant] || "";
+    return (colorCategory as Record<string, string>)[variant] || "";
   }
   return "";
 }

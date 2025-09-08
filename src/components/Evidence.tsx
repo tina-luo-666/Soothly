@@ -1,6 +1,6 @@
 "use client";
 
-import { Shield, AlertTriangle, CheckCircle } from "lucide-react";
+import { Shield, CheckCircle } from "lucide-react";
 
 export default function Evidence() {
   return (
@@ -46,7 +46,7 @@ export default function Evidence() {
                   </h3>
                   <p className="text-body-sm text-warm-gray">
                     We prioritise safety, clarity, and small steps. Every
-                    activity is designed with your child's wellbeing as the top
+                    activity is designed with your child&apos;s wellbeing as the top
                     priority.
                   </p>
                 </div>

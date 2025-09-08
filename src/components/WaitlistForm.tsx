@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Shield, CheckCircle, AlertCircle } from "lucide-react";
+import { CheckCircle, AlertCircle } from "lucide-react";
 import { cn, validateEmail, validateRequired } from "@/lib/utils";
 import { addWaitlistSignup } from "@/lib/supabase";
 import { analytics } from "@/lib/analytics";
@@ -93,7 +93,7 @@ export default function WaitlistForm() {
     }
 
     if (!validateRequired(formData.childAge)) {
-      newErrors.childAge = "Please select your child's age range";
+      newErrors.childAge = "Please select your child&apos;s age range";
     }
 
     if (!validateRequired(formData.primaryAllergy)) {
@@ -183,15 +183,15 @@ export default function WaitlistForm() {
         <div className="text-center">
           <CheckCircle className="w-16 h-16 text-primary-sage mx-auto mb-4" />
           <h3 className="text-2xl font-display font-semibold text-accent-forest mb-2">
-            You're on the list 🎉
+            You&apos;re on the list 🎉
           </h3>
           <p className="text-body-md text-supporting-gray mb-6">
-            We'll email early access details soon. In the meantime, we'll send
+            We&apos;ll email early access details soon. In the meantime, we&apos;ll send
             simple tips to help your family take small, confident steps.
           </p>
           <div className="bg-primary-cream rounded-xl p-4">
             <p className="text-sm text-supporting-gray">
-              <strong>What's next?</strong> Check your email for a confirmation
+              <strong>What&apos;s next?</strong> Check your email for a confirmation
               and look out for our gentle tips to help your family start
               building confidence around food.
             </p>
@@ -212,7 +212,7 @@ export default function WaitlistForm() {
           Join the priority waitlist
         </h3>
         <p className="text-body-md text-supporting-gray">
-          Be the first to access Australia's breakthrough exposure therapy
+          Be the first to access Australia&apos;s breakthrough exposure therapy
           platform for children and their families living with allergies,
           confidently from home
         </p>
@@ -315,7 +315,7 @@ export default function WaitlistForm() {
             htmlFor="childAge"
             className="block text-sm font-medium text-accent-forest mb-2"
           >
-            Child's age *
+            Child&apos;s age *
           </label>
           <select
             id="childAge"
@@ -397,7 +397,7 @@ export default function WaitlistForm() {
               )}
             />
             <span className="text-sm text-supporting-gray">
-              I agree to Soothly's{" "}
+              I agree to Soothly&apos;s{" "}
               <a
                 href="/privacy"
                 className="text-primary-sage hover:text-accent-forest underline"

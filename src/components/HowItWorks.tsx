@@ -7,14 +7,14 @@ const steps = [
     number: 1,
     title: "Start small",
     description:
-      "Join the waitlist and answer a few gentle questions about your family's needs and comfort level.",
+      "Join the waitlist and answer a few gentle questions about your family&apos;s needs and comfort level.",
     icon: "🌱",
   },
   {
     number: 2,
     title: "Match & plan",
     description:
-      "We outline a step-by-step path designed specifically for your family, taking into account your child's age, allergies, and readiness.",
+      "We outline a step-by-step path designed specifically for your family, taking into account your child&apos;s age, allergies, and readiness.",
     icon: "🗺️",
   },
   {
@@ -47,7 +47,7 @@ export default function HowItWorks() {
           poster="/video-poster.svg"
         >
           <source src="/how-it-works-video.mp4" type="video/mp4" />
-          {/* Fallback for browsers that don't support video */}
+          {/* Fallback for browsers that don&apos;t support video */}
           <div className="w-full h-full bg-gradient-to-br from-sage-green/20 to-warm-cream/20"></div>
         </video>
         {/* Video overlay for better content readability */}
@@ -61,7 +61,7 @@ export default function HowItWorks() {
           </h2>
           <p className="text-body-lg text-warm-gray max-w-3xl mx-auto">
             We believe in taking small, manageable steps that build confidence
-            over time. Here's how the process works.
+            over time. Here&apos;s how the process works.
           </p>
         </div>
 

@@ -26,7 +26,7 @@ export default function PrivacyPage() {
                 Introduction
               </h2>
               <p className="text-body-md text-warm-gray mb-4">
-                Soothly ("we," "our," or "us") is committed to protecting your
+                Soothly (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your
                 privacy. This Privacy Policy explains how we collect, use,
                 disclose, and safeguard your information when you visit our
                 website or use our services.
@@ -48,7 +48,7 @@ export default function PrivacyPage() {
                   Name and contact information (email address, phone number)
                 </li>
                 <li>Location information (city, state)</li>
-                <li>Child's age and allergy information</li>
+                <li>Child&apos;s age and allergy information</li>
                 <li>Health-related information you choose to share</li>
                 <li>Communication preferences</li>
               </ul>
