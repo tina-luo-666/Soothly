@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Service - Soothly",
+  title: "Terms of Service - Lighthause",
   description:
-    "Soothly's Terms of Service - Terms and conditions for using our platform.",
+    "Lighthause's Terms of Service - Terms and conditions for using our platform.",
 };
 
 export default function TermsPage() {
@@ -26,7 +26,7 @@ export default function TermsPage() {
                 Acceptance of Terms
               </h2>
               <p className="text-body-md text-warm-gray mb-4">
-                By accessing and using Soothly&apos;s services, you accept and agree
+                By accessing and using Lighthause&apos;s services, you accept and agree
                 to be bound by the terms and provision of this agreement.
               </p>
             </section>
@@ -40,7 +40,7 @@ export default function TermsPage() {
                   Important Medical Notice
                 </p>
                 <p className="text-body-sm text-forest-green/80">
-                  Soothly is not a substitute for medical advice, diagnosis, or
+                  Lighthause is not a substitute for medical advice, diagnosis, or
                   treatment. Always seek the advice of your physician or other
                   qualified health provider with any questions you may have
                   regarding a medical condition. If you suspect anaphylaxis or
@@ -99,7 +99,7 @@ export default function TermsPage() {
                 Limitation of Liability
               </h2>
               <p className="text-body-md text-warm-gray mb-4">
-                In no event shall Soothly, nor its directors, employees,
+                In no event shall Lighthause, nor its directors, employees,
                 partners, agents, suppliers, or affiliates, be liable for any
                 indirect, incidental, special, consequential, or punitive
                 damages, including without limitation, loss of profits, data,

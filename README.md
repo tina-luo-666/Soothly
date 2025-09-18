@@ -1,4 +1,4 @@
-# Soothly Waitlist Landing Page
+# Lighthause Waitlist Landing Page
 
 Australia's first evidence-based food allergy exposure therapy platform - waitlist landing page.
 

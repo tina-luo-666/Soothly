@@ -6,10 +6,7 @@ import ParallaxProblemSection from "@/components/ParallaxProblemSection";
 import FeatureIcons from "@/components/FeatureIcons";
 import HowItWorks from "@/components/HowItWorks";
 import Evidence from "@/components/Evidence";
-import FAQ from "@/components/FAQ";
-import FinalCTA from "@/components/FinalCTA";
 import WaitlistForm from "@/components/WaitlistForm";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -22,8 +19,6 @@ export default function Home() {
         <FeatureIcons />
         <HowItWorks />
         <Evidence />
-        <FAQ />
-        <FinalCTA />
 
         {/* Waitlist Section - At the bottom of the page */}
         <section
@@ -50,8 +45,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
-        <Footer />
       </div>
     </AnalyticsProvider>
   );

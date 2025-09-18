@@ -186,14 +186,15 @@ export default function WaitlistForm() {
             You&apos;re on the list 🎉
           </h3>
           <p className="text-body-md text-supporting-gray mb-6">
-            We&apos;ll email early access details soon. In the meantime, we&apos;ll send
-            simple tips to help your family take small, confident steps.
+            We&apos;ll email early access details soon. In the meantime,
+            we&apos;ll send simple tips to help your family take small,
+            confident steps.
           </p>
           <div className="bg-primary-cream rounded-xl p-4">
             <p className="text-sm text-supporting-gray">
-              <strong>What&apos;s next?</strong> Check your email for a confirmation
-              and look out for our gentle tips to help your family start
-              building confidence around food.
+              <strong>What&apos;s next?</strong> Check your email for a
+              confirmation and look out for our gentle tips to help your family
+              start building confidence around food.
             </p>
           </div>
         </div>
@@ -397,7 +398,7 @@ export default function WaitlistForm() {
               )}
             />
             <span className="text-sm text-supporting-gray">
-              I agree to Soothly&apos;s{" "}
+              I agree to Lighthause&apos;s{" "}
               <a
                 href="/privacy"
                 className="text-primary-sage hover:text-accent-forest underline"

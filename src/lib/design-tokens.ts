@@ -1,7 +1,7 @@
 /**
- * Design Tokens for Soothly
+ * Design Tokens for Lighthause
  *
- * This file defines the design token system for the Soothly application.
+ * This file defines the design token system for the Lighthause application.
  * It provides type-safe access to colors, spacing, typography, and other design elements.
  */
 

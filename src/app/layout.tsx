@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title:
-    "Soothly - Australia's First Evidence-Based Food Allergy Exposure Therapy Platform",
+    "Lighthause - Australia's First Evidence-Based Food Allergy Exposure Therapy Platform",
   description:
     "Transform food anxiety into confidence with Australia's first evidence-based exposure therapy platform. Join our priority waitlist for early access to specialist-approved treatment from home.",
   keywords: [
@@ -15,9 +15,9 @@ export const metadata: Metadata = {
     "allergy treatment",
     "home care",
   ],
-  authors: [{ name: "Soothly Team" }],
-  creator: "Soothly",
-  publisher: "Soothly",
+  authors: [{ name: "Lighthause Team" }],
+  creator: "Lighthause",
+  publisher: "Lighthause",
   formatDetection: {
     email: false,
     address: false,
@@ -26,18 +26,18 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://soothly.com.au"),
   openGraph: {
     title:
-      "Soothly - Australia's First Evidence-Based Food Allergy Exposure Therapy Platform",
+      "Lighthause - Australia's First Evidence-Based Food Allergy Exposure Therapy Platform",
     description:
       "Transform food anxiety into confidence with Australia's first evidence-based exposure therapy platform. Join our priority waitlist for early access.",
     url: "https://soothly.com.au",
-    siteName: "Soothly",
+    siteName: "Lighthause",
     locale: "en_AU",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title:
-      "Soothly - Australia's First Evidence-Based Food Allergy Exposure Therapy Platform",
+      "Lighthause - Australia's First Evidence-Based Food Allergy Exposure Therapy Platform",
     description:
       "Transform food anxiety into confidence with Australia's first evidence-based exposure therapy platform.",
   },

@@ -1,10 +1,7 @@
 "use client";
 
-import { Menu, X } from "lucide-react";
-import { useState } from "react";
 
 export default function Hero() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <section
@@ -36,99 +33,12 @@ export default function Hero() {
           {/* Left Logo */}
           <div className="flex items-center space-x-2">
             <div className="w-3 h-3 bg-white rounded-full"></div>
-            <span className="text-xl font-bold">Soothly</span>
+            <span className="text-xl font-bold">Lighthause</span>
           </div>
 
-          {/* Center Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="#about"
-              className="text-white hover:text-gray-300 transition-colors"
-            >
-              ABOUT
-            </a>
-            <a
-              href="#how-it-works"
-              className="text-white hover:text-gray-300 transition-colors"
-            >
-              HOW IT WORKS
-            </a>
-            <a
-              href="#evidence"
-              className="text-white hover:text-gray-300 transition-colors"
-            >
-              EVIDENCE
-            </a>
-            <a
-              href="#faq"
-              className="text-white hover:text-gray-300 transition-colors"
-            >
-              FAQ
-            </a>
-          </div>
 
-          {/* Right Navigation */}
-          <div className="hidden md:flex items-center space-x-6">
-            <a
-              href="#pricing"
-              className="text-white hover:text-gray-300 transition-colors"
-            >
-              PRICING
-            </a>
-            <button className="border border-white px-6 py-2 text-white hover:bg-white hover:text-black transition-colors">
-              GET STARTED
-            </button>
-          </div>
-
-          {/* Mobile Menu Button */}
-          <button
-            className="md:hidden text-white"
-            onClick={() => setIsMenuOpen(!isMenuOpen)}
-          >
-            {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
-          </button>
         </div>
 
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-black border-t border-gray-800">
-            <div className="px-6 py-4 space-y-4">
-              <a
-                href="#about"
-                className="block text-white hover:text-gray-300 transition-colors"
-              >
-                ABOUT
-              </a>
-              <a
-                href="#how-it-works"
-                className="block text-white hover:text-gray-300 transition-colors"
-              >
-                HOW IT WORKS
-              </a>
-              <a
-                href="#evidence"
-                className="block text-white hover:text-gray-300 transition-colors"
-              >
-                EVIDENCE
-              </a>
-              <a
-                href="#faq"
-                className="block text-white hover:text-gray-300 transition-colors"
-              >
-                FAQ
-              </a>
-              <a
-                href="#pricing"
-                className="block text-white hover:text-gray-300 transition-colors"
-              >
-                PRICING
-              </a>
-              <button className="w-full border border-white px-6 py-2 text-white hover:bg-white hover:text-black transition-colors">
-                GET STARTED
-              </button>
-            </div>
-          </div>
-        )}
       </nav>
 
       {/* Main Content */}
@@ -143,10 +53,11 @@ export default function Hero() {
         {/* Sub-headline */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <p className="text-lg md:text-xl text-gray-200 leading-relaxed">
-            Australia has the world&apos;s highest childhood food allergy rates. But
-            as a mother with a son living with a nut and egg allergy, I&apos;ve
-            realised that beyond the potential for medical emergencies, it&apos;s the
-            anxiety and fear that&apos;s stealing a carefree childhood from families.
+            Australia has the world&apos;s highest childhood food allergy rates.
+            But as a mother with a son living with a nut and egg allergy,
+            I&apos;ve realised that beyond the potential for medical
+            emergencies, it&apos;s the anxiety and fear that&apos;s stealing a
+            carefree childhood from families.
           </p>
         </div>
 

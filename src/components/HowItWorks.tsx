@@ -35,23 +35,23 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="py-16 lg:py-24 bg-warm-cream relative overflow-hidden">
+    <section id="form" className="py-16 lg:py-24 bg-warm-cream relative overflow-hidden">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full">
         <video
-          className="w-full h-full object-cover opacity-20"
+          className="w-full h-full object-cover opacity-40"
           autoPlay
           muted
           loop
           playsInline
           poster="/video-poster.svg"
         >
-          <source src="/how-it-works-video.mp4" type="video/mp4" />
+          <source src="/faq-background-video.mp4" type="video/mp4" />
           {/* Fallback for browsers that don&apos;t support video */}
           <div className="w-full h-full bg-gradient-to-br from-sage-green/20 to-warm-cream/20"></div>
         </video>
         {/* Video overlay for better content readability */}
-        <div className="absolute inset-0 bg-warm-cream/80"></div>
+        <div className="absolute inset-0 bg-warm-cream/50"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">

@@ -120,9 +120,9 @@ export default function ParallaxProblemSection() {
                 opacity: 0.8 + scrollY * 0.2,
               }}
             >
-              While Australia excels at emergency medical care, we&apos;re failing
-              families who need help transitioning from complete food avoidance
-              to confident, normal living.
+              While Australia excels at emergency medical care, we&apos;re
+              failing families who need help transitioning from complete food
+              avoidance to confident, normal living.
             </p>
           </div>
         </div>

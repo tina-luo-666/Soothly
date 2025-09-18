@@ -17,7 +17,7 @@ export const config = {
   // Email Configuration
   email: {
     resendApiKey: process.env.RESEND_API_KEY || "",
-    fromEmail: process.env.FROM_EMAIL || "noreply@soothly.com.au",
+    fromEmail: process.env.FROM_EMAIL || "noreply@lighthause.com.au",
   },
 
   // App Configuration
@@ -32,5 +32,5 @@ export const config = {
 // NEXT_PUBLIC_POSTHOG_KEY=your_posthog_key
 // NEXT_PUBLIC_POSTHOG_HOST=https://app.posthog.com
 // RESEND_API_KEY=your_resend_api_key
-// FROM_EMAIL=noreply@soothly.com.au
+// FROM_EMAIL=noreply@lighthause.com.au
 // NEXT_PUBLIC_APP_URL=http://localhost:3000

@@ -1,4 +1,4 @@
-# Soothly Design Guidelines
+# Lighthause Design Guidelines
 
 ## Brand Foundation
 
@@ -231,7 +231,7 @@ Before implementing any design change, ensure:
 
 ## Brand Promise
 
-Soothly feels like a supportive friend with expertise - someone who's been there, understands the challenges, and genuinely believes in your family's ability to succeed. Every design decision should reinforce this promise of nurturing competence and optimistic empowerment.
+Lighthause feels like a supportive friend with expertise - someone who's been there, understands the challenges, and genuinely believes in your family's ability to succeed. Every design decision should reinforce this promise of nurturing competence and optimistic empowerment.
 
 ---
 

@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy - Soothly",
+  title: "Privacy Policy - Lighthause",
   description:
-    "Soothly's Privacy Policy - How we collect, use, and protect your personal information.",
+    "Lighthause's Privacy Policy - How we collect, use, and protect your personal information.",
 };
 
 export default function PrivacyPage() {
@@ -26,7 +26,7 @@ export default function PrivacyPage() {
                 Introduction
               </h2>
               <p className="text-body-md text-warm-gray mb-4">
-                Soothly (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your
+                Lighthause (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;) is committed to protecting your
                 privacy. This Privacy Policy explains how we collect, use,
                 disclose, and safeguard your information when you visit our
                 website or use our services.

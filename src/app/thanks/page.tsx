@@ -4,9 +4,9 @@ import Link from "next/link";
 import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Thank You - Soothly",
+  title: "Thank You - Lighthause",
   description:
-    "Thank you for joining the Soothly waitlist. We&apos;ll be in touch soon with early access details.",
+    "Thank you for joining the Lighthause waitlist. We&apos;ll be in touch soon with early access details.",
 };
 
 export default function ThanksPage() {
